@@ -16,7 +16,7 @@ export default function Work() {
                 <h2>Title</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Commodi sit velit facilis laudantium aliquid voluptates dicta eius tenetur 
-                    ratione</p>
+                    rationeidk</p>
                   <span>Projects</span>
                </div>
             </div>
