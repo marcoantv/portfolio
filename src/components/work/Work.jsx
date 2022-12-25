@@ -1,11 +1,15 @@
+import { useState } from 'react';
 import './work.scss'
 
 export default function Work() {
 
+
+const [currentSlider,setCurrentSlider] = useState(0);
+
   const data = [
     {
       id: "1",
-      icon: "/assets/rocket-launch.png",
+      icon: "/assets/rocket-lunch.png",
       title: "Web Design",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -34,7 +38,7 @@ export default function Work() {
   return (
     <div className='work' id='work'>
 
-      <div className="slider">
+      <div className="slider" style={{tranform:`translateX(-)`}}>
       
         {data.map((d) => (
         <div className="container">
