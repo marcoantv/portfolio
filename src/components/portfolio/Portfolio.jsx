@@ -13,19 +13,19 @@ export default function Portfolio() {
   const list = [
     {
       id: "SamaguOnline",
-      title: "Samagu Online",
+      title: "Samagu",
     },
     {
       id: "HakuEcommerce",
-      title: "Haku Ecommerce",
+      title: "Haku",
     },
     {
       id: "PowerBI",
-      title: "Visualization BI",
+      title: "PowerBI",
     },
     {
       id: "HandyCraftAspNet",
-      title: "HandyCraft Tools",
+      title: "HandyCraft",
     },
   ];
 
