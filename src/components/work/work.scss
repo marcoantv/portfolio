@@ -8,6 +8,18 @@
     justify-content: center;
     position: relative;
 
+    h1{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -300px;
+        @include mobile{
+            font-size: 20px;
+        }
+    }
+
     .arrow{
         height: 50px;
         position: absolute;
